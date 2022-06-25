@@ -1,0 +1,175 @@
+body {font-family: "Lato", sans-serif;}
+
+i{
+    margin-bottom: 12px;
+}
+
+.sidebar {
+  height: 70%;
+  width: 20px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 16px;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #766464;
+  display: block;
+}
+
+.sidebar :hover {
+  color: #1818af;
+}
+
+header{
+  margin-left: 50px;
+}
+
+header.header-section {
+  padding: 20px;
+  background-color: rgb(30, 29, 29);
+}
+
+
+.header-info{
+    display: flex;
+    align-items: flex-start; 
+}
+
+.text-img {
+  margin-left: 43px;
+}
+
+.headline {
+  color: white;
+}
+
+h6#head2 {
+  position: relative;
+  top: -14px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 62px;
+}
+
+.icon {
+  font-size: 15px;
+  line-height: 10px;
+  color: white;
+  margin-right: 20px;
+}
+
+.icon-list{
+    display: flex;
+    align-items: center;
+}
+
+i.las.la-play {
+  position: relative;
+  top: 5px;
+  font-size:24px;
+  color:white;
+}
+
+i.las.la-plus {
+  position: relative;
+  top: 4px;
+  font-size:24px;
+  color:white;
+}
+
+i.las.la-ellipsis-h {
+  position: relative;
+  top: 5px;
+  font-size:24px;
+  color:white;
+}
+
+.play-list {
+  font-family: Lato;
+  border-collapse: collapse;
+  width: 96%;
+  margin-left: 10px;
+  margin-left: 50px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(56, 18, 172);
+  color: white;
+  text-align: center;
+}
+
+.now-playing{
+  padding: 20px;
+  background-color: rgb(111, 111, 217);
+  display: flex;
+}
+
+#song-banner {
+  width: 100px;
+}
+
+.song-details {
+  margin-left: 20px;
+}
+
+.playlist-icon {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: -1220px;
+}
+
+i.las.la-step-backward {
+  font-size:24px;
+  color:white;
+}
+
+i.las.la-pause {
+  position: relative;
+  right: -54px;
+  font-size:24px;
+  color:white;
+}
+
+i.las.la-step-forward {
+  position: relative;
+  right: -108px;
+  font-size:24px;
+  color:white;
+}
+
+i.las.la-undo-alt {
+  position: relative;
+  right: -162px;
+  font-size:24px;
+  color:white;
+}
+
+i.las.la-random {
+  position: relative;
+  right: -216px;
+  font-size:24px;
+  color:white;
+}
