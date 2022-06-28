@@ -1,0 +1,42 @@
+/* .main {
+    display: flex;
+    align-items: center;
+}
+.row1 {
+    margin: 81px;
+}
+.row2 {
+    margin: 81px;
+}
+li{
+    display: inline;
+}
+/* ul{
+    list-style: none;
+
+} */ 
+
+.row {
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 32px;
+}
+
+.col {
+    padding-left: 16px;
+    padding-right: 16px;
+    display: inline-block;
+    width: 49%;
+    box-sizing: border-box;
+}
+img {
+    margin: auto;
+    display: block;
+}
+.form{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+li{
+    display: inline;
+}
