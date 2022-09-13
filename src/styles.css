@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Container {
+  background-color: greenyellow;
+  padding: 10px;
+  /* height: 100px;
+    width: 500px; */
+  /* display: flex; */
+}
+.input {
+  margin: 50px;
+  display: center;
+}
+.OutPut {
+  margin: 50px;
+  display: center;
+}
+
+/* #root {
+    background-color: hotpink;
+    width: 600px;
+    height: 600px;
+  } */
